@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form JS</title>
+</head>
+<body>
+	<!-- add script of form -->
+	<script type="text/javascript" src="js/form.js"></script>
+
+	<form action="" method="post" name="form" id="form">
+		<label for="name">Your name</label>
+		<input type="text" name="name" placeholder="Name:" id="name"><br>
+		<label for="email">Your Email</label>
+		<input type="email" name="email" placeholder="Email:" id="email"><br>
+		<label for="password">Your Password</label>
+		<input type="password" name="password" placeholder="Password:" id="password"><br>
+		<label for="repassword">Repeat your password</label>
+		<input type="password" name="repassword" placeholder="Password:" id="repassword"><br>
+		<span>Sex</span>
+		<input type="radio" name="state" id="male" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" name="state" id="female" value="Female">
+		<label for="female">Female</label><br>
+		<input type="button" onclick="valid(document.getElementById('form'))" value="Ok">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
